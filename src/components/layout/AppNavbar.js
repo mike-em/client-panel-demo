@@ -31,7 +31,7 @@ class AppNavbar extends Component {
     const { auth } = this.props;
     const { allowRegistration } = this.props.settings;
     return (
-      <nav className='navbar navbar-expand-md navbar-dark bg-primary mb-4'>
+      <nav className='navbar navbar-expand-xs  navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-dark bg-primary'>
         <div className='container'>
           <Link to='/' className='navbar-brand'>
             ClientPanel
@@ -39,7 +39,7 @@ class AppNavbar extends Component {
           <button
             className='navbar-toggler'
             type='button'
-            data-toggle='collaps'
+            data-toggle='collapse'
             data-target='#navbarMain'
           >
             <span className='navbar-toggler-icon'></span>
