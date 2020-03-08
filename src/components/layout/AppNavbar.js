@@ -31,7 +31,7 @@ class AppNavbar extends Component {
     const { auth } = this.props;
     const { allowRegistration } = this.props.settings;
     return (
-      <nav className='navbar navbar-expand-xs  navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-dark bg-primary'>
+      <nav className='navbar navbar-expand-xs  navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-dark bg-primary mb-4'>
         <div className='container'>
           <Link to='/' className='navbar-brand'>
             ClientPanel
